@@ -1,131 +1,141 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, viewport-fit=cover"
-    />
-    <title>Gallery — Photographer Portfolio</title>
-    <meta name="description" content="Selected works in a curated gallery grid." />
-    <link rel="stylesheet" href="assets/styles.css" />
-    <script defer src="assets/script.js"></script>
-  </head>
-  <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Gallery - Nimay Bhatnagar Photography</title>
+    <meta name="description" content="Curated gallery of photography works by Nimay Bhatnagar, showcasing natural light and candid moments captured with mobile photography.">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
     <a class="skip-link" href="#main">Skip to content</a>
+    
     <header class="site-header" role="banner">
-      <div class="container header-inner">
-        <a href="index.html" class="brand" aria-label="Homepage">
-          <span class="brand-mark" aria-hidden="true">◆</span>
-          <span class="brand-text">Your Name</span>
-        </a>
-
-        <button
-          class="nav-toggle"
-          aria-label="Toggle navigation"
-          aria-controls="site-nav"
-          aria-expanded="false"
-        >
-          <span class="nav-toggle-bar" aria-hidden="true"></span>
-          <span class="nav-toggle-bar" aria-hidden="true"></span>
-          <span class="nav-toggle-bar" aria-hidden="true"></span>
-        </button>
-
-        <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html" aria-current="page">Gallery</a></li>
-            <li><a href="stories.html">Stories</a></li>
-            <li><a href="contact.html" class="btn btn-primary">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+        <div class="container header-inner">
+            <a href="index.html" class="brand" aria-label="Homepage">
+                <span class="brand-mark" aria-hidden="true">📸</span>
+                <span class="brand-text">Nimay Bhatnagar</span>
+            </a>
+            
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false">
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+            </button>
+            
+            <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+                    <li><a href="stories.html">Stories</a></li>
+                    <li><a href="contact.html" class="btn btn-primary">Get in Touch</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main id="main" class="site-main">
-      <section class="page-header container">
-        <h1 class="text-balance">Gallery</h1>
-        <p class="muted">Click an image to view larger.</p>
-      </section>
+        <div class="container">
+            <div class="page-header">
+                <h1>Gallery</h1>
+                <p class="lead">Selected works in a curated gallery grid. Click any image to view in full size.</p>
+            </div>
 
-      <section class="container gallery-grid" aria-label="Photo gallery">
-         Replace src with your images; include alt text 
-        <figure class="photo">
-          <img
-            src="/placeholder.svg?height=900&width=1200"
-            alt="Shoreline at dawn"
-            data-lightbox
-            data-caption="Shoreline at dawn — the air was cold and still."
-          />
-          <figcaption>Shoreline at dawn</figcaption>
-        </figure>
-        <figure class="photo">
-          <img
-            src="/placeholder.svg?height=900&width=1200"
-            alt="Alley after rain"
-            data-lightbox
-            data-caption="After the storm, color returns slowly."
-          />
-          <figcaption>Alley after rain</figcaption>
-        </figure>
-        <figure class="photo">
-          <img
-            src="/placeholder.svg?height=900&width=1200"
-            alt="Mountain in mist"
-            data-lightbox
-            data-caption="Mist softens the mountain's edge."
-          />
-          <figcaption>Mountain in mist</figcaption>
-        </figure>
-        <figure class="photo">
-          <img
-            src="/placeholder.svg?height=900&width=1200"
-            alt="Desert lines at noon"
-            data-lightbox
-            data-caption="Harsh light, honest geometry."
-          />
-          <figcaption>Desert lines</figcaption>
-        </figure>
-        <figure class="photo">
-          <img
-            src="/placeholder.svg?height=900&width=1200"
-            alt="Forest path"
-            data-lightbox
-            data-caption="A quiet path under layered greens."
-          />
-          <figcaption>Forest path</figcaption>
-        </figure>
-        <figure class="photo">
-          <img
-            src="/placeholder.svg?height=900&width=1200"
-            alt="City at night"
-            data-lightbox
-            data-caption="Sodium light and passing time."
-          />
-          <figcaption>City at night</figcaption>
-        </figure>
-      </section>
+            <div class="gallery-grid">
+                <figure class="photo">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Golden hour landscape with warm natural light"
+                         data-lightbox
+                         data-caption="Golden Hour Serenity - Natural light creating peaceful moments">
+                    <figcaption>Golden Hour Serenity</figcaption>
+                </figure>
 
-       Lightbox modal 
-      <div class="lightbox" data-lightbox-root hidden>
-        <button class="lightbox-close" aria-label="Close image">&times;</button>
-        <figure class="lightbox-frame">
-          <img alt="" />
-          <figcaption class="lightbox-caption"></figcaption>
-        </figure>
-      </div>
+                <figure class="photo">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Forest path with dappled sunlight filtering through trees"
+                         data-lightbox
+                         data-caption="Path Through Light - Exploring natural patterns and shadows">
+                    <figcaption>Path Through Light</figcaption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="https://images.unsplash.com/photo-1518837695005-2083093ee35b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Urban architecture captured in natural light"
+                         data-lightbox
+                         data-caption="Urban Shadows - Finding beauty in everyday city scenes">
+                    <figcaption>Urban Shadows</figcaption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Candid portrait in natural light"
+                         data-lightbox
+                         data-caption="Quiet Moments - Authentic expressions in natural settings">
+                    <figcaption>Quiet Moments</figcaption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Minimalist landscape composition"
+                         data-lightbox
+                         data-caption="Minimalist Vision - Simple compositions with maximum impact">
+                    <figcaption>Minimalist Vision</figcaption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Nature detail with soft natural lighting"
+                         data-lightbox
+                         data-caption="Natural Details - Finding extraordinary in the ordinary">
+                    <figcaption>Natural Details</figcaption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Street photography capturing everyday life"
+                         data-lightbox
+                         data-caption="Street Stories - Documenting life as it unfolds naturally">
+                    <figcaption>Street Stories</figcaption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Atmospheric landscape with moody lighting"
+                         data-lightbox
+                         data-caption="Atmospheric Mood - Capturing the feeling of a place">
+                    <figcaption>Atmospheric Mood</figcaption>
+                </figure>
+
+                <figure class="photo">
+                    <img src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                         alt="Intimate portrait with natural expression"
+                         data-lightbox
+                         data-caption="Honest Portraits - Revealing character through genuine moments">
+                    <figcaption>Honest Portraits</figcaption>
+                </figure>
+            </div>
+        </div>
     </main>
 
-    <footer class="site-footer" role="contentinfo">
-      <div class="container footer-inner">
-        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
-        <nav aria-label="Footer">
-          <a href="contact.html" class="link">Contact</a>
-          <a href="gallery.html" class="link" aria-current="page">Gallery</a>
-          <a href="stories.html" class="link">Stories</a>
-        </nav>
-      </div>
+    <!-- Lightbox -->
+    <div class="lightbox" hidden data-lightbox-root>
+        <div class="lightbox-frame">
+            <img src="" alt="">
+            <div class="lightbox-caption"></div>
+        </div>
+        <button class="lightbox-close" aria-label="Close lightbox">&times;</button>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="small muted">&copy; <span id="year">2025</span> Nimay Bhatnagar. All rights reserved.</p>
+            <nav>
+                <a href="contact.html" class="small">Contact</a>
+                <a href="https://instagram.com" class="small" target="_blank" rel="noopener">Instagram</a>
+            </nav>
+        </div>
     </footer>
-  </body>
+</body>
 </html>

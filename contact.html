@@ -1,100 +1,121 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, viewport-fit=cover"
-    />
-    <title>Contact — Photographer Portfolio</title>
-    <meta name="description" content="Get in touch for commissions and collaborations." />
-    <link rel="stylesheet" href="assets/styles.css" />
-    <script defer src="assets/script.js"></script>
-  </head>
-  <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Contact - Nimay Bhatnagar Photography</title>
+    <meta name="description" content="Get in touch with Nimay Bhatnagar for photography collaborations, inquiries, and commissions.">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
     <a class="skip-link" href="#main">Skip to content</a>
+    
     <header class="site-header" role="banner">
-      <div class="container header-inner">
-        <a href="index.html" class="brand" aria-label="Homepage">
-          <span class="brand-mark" aria-hidden="true">◆</span>
-          <span class="brand-text">Your Name</span>
-        </a>
-
-        <button
-          class="nav-toggle"
-          aria-label="Toggle navigation"
-          aria-controls="site-nav"
-          aria-expanded="false"
-        >
-          <span class="nav-toggle-bar" aria-hidden="true"></span>
-          <span class="nav-toggle-bar" aria-hidden="true"></span>
-          <span class="nav-toggle-bar" aria-hidden="true"></span>
-        </button>
-
-        <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="stories.html">Stories</a></li>
-            <li><a href="contact.html" aria-current="page" class="btn btn-primary">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+        <div class="container header-inner">
+            <a href="index.html" class="brand" aria-label="Homepage">
+                <span class="brand-mark" aria-hidden="true">📸</span>
+                <span class="brand-text">Nimay Bhatnagar</span>
+            </a>
+            
+            <button class="nav-toggle" aria-label="Toggle navigation" aria-controls="site-nav" aria-expanded="false">
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+                <span class="nav-toggle-bar" aria-hidden="true"></span>
+            </button>
+            
+            <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="stories.html">Stories</a></li>
+                    <li><a href="contact.html" aria-current="page" class="btn btn-primary">Get in Touch</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main id="main" class="site-main">
-      <section class="page-header container">
-        <h1 class="text-balance">Contact</h1>
-        <p class="muted">
-          For commissions, collaborations, and prints, please get in touch.
-        </p>
-      </section>
+        <div class="container">
+            <div class="page-header">
+                <h1>Let's Connect</h1>
+                <p class="lead">Ready to collaborate or have questions about my work? I'd love to hear from you.</p>
+            </div>
 
-      <section class="container contact-wrap">
-        <form id="contact-form" class="card" aria-labelledby="contact-title">
-          <h2 id="contact-title">Send a message</h2>
-          <div class="field">
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required autocomplete="name" />
-          </div>
-          <div class="field">
-            <label for="email">Email</label>
-            <input id="email" name="email" type="email" required autocomplete="email" />
-          </div>
-          <div class="field">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="6" required></textarea>
-          </div>
-          <div class="actions">
-            <button type="submit" class="btn btn-primary">Send</button>
-            <p class="muted small">
-              Or email directly:
-              <a href="mailto:hello@example.com" class="link">hello@example.com</a>
-            </p>
-          </div>
-        </form>
+            <div class="contact-wrap">
+                <form id="contact-form" class="card">
+                    <h2>Send a Message</h2>
+                    
+                    <div class="field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="field">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Collaboration inquiry, commission, etc.">
+                    </div>
+                    
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" 
+                                  placeholder="Tell me about your project, timeline, or any questions you have..." required></textarea>
+                    </div>
+                    
+                    <div class="actions">
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p class="small muted">I typically respond within 24-48 hours.</p>
+                    </div>
+                </form>
 
-        <aside class="card contact-aside">
-          <h2>Elsewhere</h2>
-          <ul class="contact-list">
-            <li><a class="link" href="#" aria-label="Instagram">Instagram</a></li>
-            <li><a class="link" href="#" aria-label="Behance">Behance</a></li>
-            <li><a class="link" href="#" aria-label="Print shop">Print shop</a></li>
-          </ul>
-        </aside>
-      </section>
+                <div class="contact-aside">
+                    <div class="card">
+                        <h2>Get in Touch</h2>
+                        <p>I'm always excited to work with people who appreciate authentic, thoughtful photography. Whether you're looking for:</p>
+                        
+                        <ul class="contact-list">
+                            <li><strong>Portrait sessions</strong> - Capturing genuine moments and expressions</li>
+                            <li><strong>Event coverage</strong> - Documenting your special occasions naturally</li>
+                            <li><strong>Commercial projects</strong> - Bringing authenticity to your brand</li>
+                            <li><strong>Collaborations</strong> - Creative partnerships and artistic projects</li>
+                            <li><strong>Mobile photography tips</strong> - Sharing techniques and insights</li>
+                        </ul>
+                        
+                        <p>Feel free to reach out for collaborations or just to connect!</p>
+                        
+                        <h3>Follow My Journey</h3>
+                        <div class="hero-actions">
+                            <a href="https://instagram.com" class="btn btn-ghost" target="_blank" rel="noopener">Instagram</a>
+                            <a href="mailto:hello@nimaybhatnagar.com" class="btn btn-ghost">Email Me</a>
+                        </div>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>Based in India</h3>
+                        <p>Currently available for projects across India and open to travel opportunities. Remote consultations and digital collaborations welcome worldwide.</p>
+                        
+                        <h3>Response Time</h3>
+                        <p>I aim to respond to all inquiries within 24-48 hours. For urgent projects, please mention the timeline in your message.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
-    <footer class="site-footer" role="contentinfo">
-      <div class="container footer-inner">
-        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
-        <nav aria-label="Footer">
-          <a href="contact.html" class="link" aria-current="page">Contact</a>
-          <a href="gallery.html" class="link">Gallery</a>
-          <a href="stories.html" class="link">Stories</a>
-        </nav>
-      </div>
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="small muted">&copy; <span id="year">2025</span> Nimay Bhatnagar. All rights reserved.</p>
+            <nav>
+                <a href="contact.html" class="small">Contact</a>
+                <a href="https://instagram.com" class="small" target="_blank" rel="noopener">Instagram</a>
+            </nav>
+        </div>
     </footer>
-  </body>
+</body>
 </html>
