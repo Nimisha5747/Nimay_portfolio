@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Gallery — Photographer Portfolio</title>
+    <meta name="description" content="Selected works in a curated gallery grid." />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Homepage">
+          <span class="brand-mark" aria-hidden="true">◆</span>
+          <span class="brand-text">Your Name</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-controls="site-nav"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html" aria-current="page">Gallery</a></li>
+            <li><a href="stories.html">Stories</a></li>
+            <li><a href="contact.html" class="btn btn-primary">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main">
+      <section class="page-header container">
+        <h1 class="text-balance">Gallery</h1>
+        <p class="muted">Click an image to view larger.</p>
+      </section>
+
+      <section class="container gallery-grid" aria-label="Photo gallery">
+         Replace src with your images; include alt text 
+        <figure class="photo">
+          <img
+            src="/placeholder.svg?height=900&width=1200"
+            alt="Shoreline at dawn"
+            data-lightbox
+            data-caption="Shoreline at dawn — the air was cold and still."
+          />
+          <figcaption>Shoreline at dawn</figcaption>
+        </figure>
+        <figure class="photo">
+          <img
+            src="/placeholder.svg?height=900&width=1200"
+            alt="Alley after rain"
+            data-lightbox
+            data-caption="After the storm, color returns slowly."
+          />
+          <figcaption>Alley after rain</figcaption>
+        </figure>
+        <figure class="photo">
+          <img
+            src="/placeholder.svg?height=900&width=1200"
+            alt="Mountain in mist"
+            data-lightbox
+            data-caption="Mist softens the mountain's edge."
+          />
+          <figcaption>Mountain in mist</figcaption>
+        </figure>
+        <figure class="photo">
+          <img
+            src="/placeholder.svg?height=900&width=1200"
+            alt="Desert lines at noon"
+            data-lightbox
+            data-caption="Harsh light, honest geometry."
+          />
+          <figcaption>Desert lines</figcaption>
+        </figure>
+        <figure class="photo">
+          <img
+            src="/placeholder.svg?height=900&width=1200"
+            alt="Forest path"
+            data-lightbox
+            data-caption="A quiet path under layered greens."
+          />
+          <figcaption>Forest path</figcaption>
+        </figure>
+        <figure class="photo">
+          <img
+            src="/placeholder.svg?height=900&width=1200"
+            alt="City at night"
+            data-lightbox
+            data-caption="Sodium light and passing time."
+          />
+          <figcaption>City at night</figcaption>
+        </figure>
+      </section>
+
+       Lightbox modal 
+      <div class="lightbox" data-lightbox-root hidden>
+        <button class="lightbox-close" aria-label="Close image">&times;</button>
+        <figure class="lightbox-frame">
+          <img alt="" />
+          <figcaption class="lightbox-caption"></figcaption>
+        </figure>
+      </div>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+        <nav aria-label="Footer">
+          <a href="contact.html" class="link">Contact</a>
+          <a href="gallery.html" class="link" aria-current="page">Gallery</a>
+          <a href="stories.html" class="link">Stories</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

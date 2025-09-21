@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Stories — Photographer Portfolio</title>
+    <meta name="description" content="Narratives behind select photographs." />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Homepage">
+          <span class="brand-mark" aria-hidden="true">◆</span>
+          <span class="brand-text">Your Name</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-controls="site-nav"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="stories.html" aria-current="page">Stories</a></li>
+            <li><a href="contact.html" class="btn btn-primary">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main">
+      <section class="page-header container">
+        <h1 class="text-balance">Stories</h1>
+        <p class="muted">
+          A story behind a few select photographs. Replace images and text with your own narratives.
+        </p>
+      </section>
+
+      <section class="container stories-list">
+        <article class="story">
+          <div class="story-media">
+            <img
+              src="/placeholder.svg?height=720&width=960"
+              alt="Harbor at dawn"
+            />
+          </div>
+          <div class="story-copy">
+            <h2>Harbor, First Light</h2>
+            <p class="text-pretty">
+              The day began before the city woke. I waited as the water took on
+              color—gray to blue, then a thin line of amber across the hulls.
+              The photo is less about boats than the quiet breath between them.
+            </p>
+          </div>
+        </article>
+
+        <article class="story">
+          <div class="story-media">
+            <img
+              src="/placeholder.svg?height=720&width=960"
+              alt="Window with rain"
+            />
+          </div>
+          <div class="story-copy">
+            <h2>Rain on the Third Floor</h2>
+            <p class="text-pretty">
+              I framed the window and waited for the bus to pass. The glass
+              turned the scene into a painting—streaks of color, a pause in the
+              schedule. The moment was borrowed, and that made it honest.
+            </p>
+          </div>
+        </article>
+
+        <article class="story">
+          <div class="story-media">
+            <img
+              src="/placeholder.svg?height=720&width=960"
+              alt="Desert road"
+            />
+          </div>
+          <div class="story-copy">
+            <h2>Noon on the Long Road</h2>
+            <p class="text-pretty">
+              Harsh light leaves nothing to hide. The lines felt ceremonial—
+              a procession of shadows keeping time across the shoulder.
+            </p>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+        <nav aria-label="Footer">
+          <a href="contact.html" class="link">Contact</a>
+          <a href="gallery.html" class="link">Gallery</a>
+          <a href="stories.html" class="link" aria-current="page">Stories</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

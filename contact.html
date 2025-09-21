@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Contact — Photographer Portfolio</title>
+    <meta name="description" content="Get in touch for commissions and collaborations." />
+    <link rel="stylesheet" href="assets/styles.css" />
+    <script defer src="assets/script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a href="index.html" class="brand" aria-label="Homepage">
+          <span class="brand-mark" aria-hidden="true">◆</span>
+          <span class="brand-text">Your Name</span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-controls="site-nav"
+          aria-expanded="false"
+        >
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+          <span class="nav-toggle-bar" aria-hidden="true"></span>
+        </button>
+
+        <nav id="site-nav" class="site-nav" role="navigation" aria-label="Primary">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="stories.html">Stories</a></li>
+            <li><a href="contact.html" aria-current="page" class="btn btn-primary">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main">
+      <section class="page-header container">
+        <h1 class="text-balance">Contact</h1>
+        <p class="muted">
+          For commissions, collaborations, and prints, please get in touch.
+        </p>
+      </section>
+
+      <section class="container contact-wrap">
+        <form id="contact-form" class="card" aria-labelledby="contact-title">
+          <h2 id="contact-title">Send a message</h2>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required autocomplete="name" />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required autocomplete="email" />
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <div class="actions">
+            <button type="submit" class="btn btn-primary">Send</button>
+            <p class="muted small">
+              Or email directly:
+              <a href="mailto:hello@example.com" class="link">hello@example.com</a>
+            </p>
+          </div>
+        </form>
+
+        <aside class="card contact-aside">
+          <h2>Elsewhere</h2>
+          <ul class="contact-list">
+            <li><a class="link" href="#" aria-label="Instagram">Instagram</a></li>
+            <li><a class="link" href="#" aria-label="Behance">Behance</a></li>
+            <li><a class="link" href="#" aria-label="Print shop">Print shop</a></li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+        <nav aria-label="Footer">
+          <a href="contact.html" class="link" aria-current="page">Contact</a>
+          <a href="gallery.html" class="link">Gallery</a>
+          <a href="stories.html" class="link">Stories</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
