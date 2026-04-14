@@ -1,9 +1,10 @@
-📸 Nimay Bhatnagar
-Timeless photography, crafted with intention.
+📸 **Nimay Bhatnagar**
+**Timeless photography, crafted with intention.**
 
 Welcome to my digital portfolio — a curated space where I share moments, stories, and perspectives captured through my lens.
 
-🌿 About Me
+
+🌿 **About Me**
 
 Hi, I’m Nimay — a realistic photographer based in India.
 
@@ -17,7 +18,8 @@ Quiet, meaningful moments
 
 I believe photography is not just about capturing images, but preserving feelings that words often cannot express.
 
-🖼️ What You’ll Find Here
+
+🖼️ **What You’ll Find Here**
 
 This portfolio is a collection of:
 
@@ -27,7 +29,8 @@ Personal Perspective – How I see the world through my lens
 
 Each image reflects simplicity, honesty, and intention.
 
-🎯 My Approach
+
+🎯 **My Approach**
 
 I create images that embrace:
 
@@ -38,13 +41,15 @@ Stillness within motion
 
 All photographs showcased here are captured using a mobile phone, proving that storytelling matters more than the device.
 
-🌐 Explore
+
+🌐 **Explore**
 📷 Gallery – A collection of my work
 📖 Stories – The meaning behind the frames
 🙋 About – More about my journey
 📬 Contact – Get in touch
 
-✨ Closing Note
+
+✨ **Closing Note**
 
 Thank you for taking the time to explore my work.
 
