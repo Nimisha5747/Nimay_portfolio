@@ -1,4 +1,5 @@
 📸 **Nimay Bhatnagar**
+
 **Timeless photography, crafted with intention.**
 
 Welcome to my digital portfolio — a curated space where I share moments, stories, and perspectives captured through my lens.
